@@ -1,0 +1,18 @@
+{
+  "feature": "Feature name",
+  "task": "Outcome owned by this agent",
+  "agent": "unique-agent-session",
+  "work_order": "Unassigned",
+  "worktree": "workspace root",
+  "status": "in_progress",
+  "current_step": "Inspect the current implementation and requirements",
+  "order": ["Verify prerequisites", "Implement the requested increment", "Validate and hand off"],
+  "steps": [
+    {"name": "Confirm scope and prerequisites", "status": "in_progress"},
+    {"name": "Implement the requested increment", "status": "pending"},
+    {"name": "Run relevant checks and hand off", "status": "pending"}
+  ],
+  "next_action": "Read the relevant service and its callers",
+  "blockers": [],
+  "checks": []
+}
